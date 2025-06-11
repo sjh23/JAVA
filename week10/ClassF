@@ -1,0 +1,22 @@
+package package1;
+
+import week10.ClassD;
+
+public class ClassF {
+	public ClassF() {
+		ClassD dd = new ClassD();
+		
+		//public : 모든 클래스애서 접근 가능
+		dd.field1 = 20;
+		
+		//default : 같은 패키지 안에서만 가능
+		//dd.field2 = 20;
+		
+		//private : 자기 클래스 안에서만 가능
+		//dd.field3 = 20;
+		
+		dd.method1();
+		//dd.method3();
+		//dd.method2();
+	}
+}
