@@ -1,0 +1,19 @@
+package week10;
+
+public class ClassA {
+	//클래스 안에서 생성자 호출
+	ClassA c1 = new ClassA(true);
+	ClassA c2 = new ClassA(10);
+	ClassA c3 = new ClassA("문자열");
+	
+	//생성자 오버로딩
+	ClassA(int data) {
+		//접근제한자가 생략 => default 접근제한자
+	}
+	public ClassA(boolean data) {
+		
+	}
+	private ClassA(String data) {
+		
+	}
+}
